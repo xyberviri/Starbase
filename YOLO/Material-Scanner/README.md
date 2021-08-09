@@ -11,6 +11,9 @@ This script automates the usage of the Material-Point-Scanner.
 2. Aim the scanner at an asteroid
 3. The scanner will now scan the asteroid, print it's content on the text-panel along with how many slots the materials will take. 
 
+# Note 
+Slot size is based on volume, the scan is reporting 1712 while the ingame volume for a block of ore is reported as 1728 on the in game display. 
+
 # License
 MIT
 
