@@ -16,4 +16,5 @@ MIT
 
 # Credits
 https://github.com/xyberviri Xyberviri#5609
-github.com/dbaumgarten / dbaumgarten#9279
+
+https://github.com/dbaumgarten / dbaumgarten#9279
