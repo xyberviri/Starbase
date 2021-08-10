@@ -1,0 +1,13 @@
+w="\n" o=": on"+w f=": off"+w y=": yes"+w n=": no"+w d="Dmg " ds=d+"S"
+l="Mine" c="Gather" s="Safe" b="Build" dp=d+"P" dc=d+"C" t=w
+t+="Scan" IF :Active>0 then t+=o ELSE t+=f END
+t+=l IF :MiningLaserOn>0 then t+=o ELSE t+=f END
+t+=c IF :OreCollectorOn>0 then t+=y ELSE t+=n END
+:Gear=t
+t=s IF :insidesafezone>0 then t+=y ELSE t+=n END
+t+=b IF :stationsallowed>0 then t+=y ELSE t+=n END
+t+=ds IF :shipdamage>0 then t+=y ELSE t+=n END
+t+=dp IF :playerdamage>0 then t+=y ELSE t+=n END
+t+=dc IF :collisiondamage>0 then t+=y ELSE t+=n END
+:Status=t
+GOTO 1
