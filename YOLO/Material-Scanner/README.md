@@ -1,3 +1,4 @@
+![Material Scanner Output](Material_scanner.jpg)
 # Material Scanner Script
 This script automates the usage of the Material-Point-Scanner.
 
