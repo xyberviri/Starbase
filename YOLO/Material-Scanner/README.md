@@ -19,6 +19,8 @@ Slot size is based on volume, the scan is reporting 1712 while the ingame volume
 MIT
 
 # Credits
-https://github.com/xyberviri Xyberviri#5609
+https://github.com/xyberviri / Xyberviri#5609
 
 https://github.com/dbaumgarten / dbaumgarten#9279
+
+https://www.youtube.com/watch?v=lnhBShSdejw / XenoCow
