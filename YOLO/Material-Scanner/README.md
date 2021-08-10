@@ -1,4 +1,5 @@
-![Material Scanner Output](Material_scanner.jpg)
+![Material Scanner Output](https://github.com/xyberviri/Starbase/blob/main/YOLO/Material-Scanner/%E2%80%8CMaterial_scanner.jpg)
+
 # Material Scanner Script
 This script automates the usage of the Material-Point-Scanner.
 
