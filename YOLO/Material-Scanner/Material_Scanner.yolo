@@ -1,5 +1,6 @@
 n="\n" o="ON"+n f="OFF"+n  c="ium" d="ite" e=" Ore" l=" Crystal"
-i=0 IF :Active<1 THEN :_Scan_=f GOTO2 END :_Scan_=o :Scan=1
-IF i<:ScanResults THEN :Index=i i+=1 ELSE GOTO5 END
+i=0 IF :Active<1 THEN :_Scan_=f GOTO2END :_Scan_=o
+:Scan=1 IF i<:ScanResults THEN :Index=i i+=1 ELSE GOTO5 END
 :_Scan_+=(:Material-c-d-e-l)+":"+(:Volume/1712)+n
-IF :Active<1 THEN :RESET=1 GOTO2 ELSE GOTO3 END
+IF :ScanResults<1 THEN :_Scan_=f :RESET=1 GOTO2 END
+IF :Active<1 THEN :_Scan_=f :RESET=1 GOTO2 ELSE GOTO3 END
