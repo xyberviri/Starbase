@@ -17,7 +17,7 @@ This script automates the usage of the Material-Point-Scanner.
 Slot size is based on volume, the scan is reporting 1712 while the ingame volume for a block of ore is reported as 1728 on the in game display. 
 
 # License
-MIT
+GNU GPLv3
 
 # Credits
 https://github.com/xyberviri / Xyberviri#5609
