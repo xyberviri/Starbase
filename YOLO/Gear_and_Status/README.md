@@ -14,7 +14,7 @@ This script displays basic information about your ship
 Refresh rate is about 2.6 second. 
 
 # License
-MIT
+GNU GPLv3
 
 # Credits
 https://github.com/xyberviri Xyberviri#5609
