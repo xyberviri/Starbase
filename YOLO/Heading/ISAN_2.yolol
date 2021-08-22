@@ -1,0 +1,25 @@
+Ai=1000 w=1000 po=1 so=1 COLLECTIVE+=ISAN sv=(1-so)*18 ds=so sq=0.5
+z="origin_" a=z+"north" f=z+"south" g=z+"east" z+="west" ms=""
+up=" POS  :i\n     " :et=a :ft=f :gt=g :ht=z :i=up+"\nBooting\nISAN"
+ri=:i mx=up+"Q\nX: " my="\nY: " mz="\nZ: " ss="" x/=so-1 ms="\n\nS: "
+e=1279116.788 j=1279315.653 k=295462.833 ll=-202102.766 p=60 mo="M"
+t=-218955.76 n=319959.864 o=1386614.499 pp=1387810.136 vv=15+po
+h=-159981.854 r=-159995.737 s=159977.118 tt=160000.474 v=1000000
+i=v-:e b=v-:f c=v-:g d=v-:h i*=i b*=b c*=c d*=d u/=:e u=8 mm=mx goto16
+:et=f i=v-:e i*=i ar=(i-la)/4 la=i u/=:e u=10 mm=up+mo+"\nX: " gotovv
+:et=g b=v-:e b*=b br=(b-lb)/4 lb=b u/=:e u=11 gotovv
+:et=z c=v-:e c*=c cr=(c-lc)/4 lc=c u/=:e u=12 gotovv
+:et=a d=v-:e d*=d dr=(d-ld)/4 ld=d u/=:e u=9  gotovv
+:i=up+"\n   Loss\n    Of\n  Signal!" goto 13-10*(:e>0)
+x=:i :i=up+"\nReceiver(s) damaged." goto 14-14*(x=="")
+i+=ar b+=br c+=cr d+=dr // ISAN v2 Documentation: isan.to/doc
+:x2=i/e+b/j+c/k+d/ll :y2=i/t+b/n+c/o+d/pp :z2=i/h+b/r+c/s+d/tt ww=u*ds
+xy=:i=="" :i=mm+:x2/Ai*w+my+:y2/Ai*w+mz+:z2/Ai*w+ms+ss gotosv+ww+v*xy
+l+=:x2 ay+=:y2 az+=:z2 x=l-px y=ay-py q=az-m sv+=(ii++%3)>1 gotou
+ss=(x*x+y*y+q*q)^sq/(p-3*vv) px=l py=ay m=az l=0 ay=0 az=0 sv=18 gotou
+xy=:i :i=up+"\n\n  Streamer\n    Mode" goto 20-20*(xy=="")
+
+//This ISAN code has been modified to use :e,:f,:g,:h, for single strength 
+//:et,:ft,:gt,:ht for the target message, and :i for isan positioning of the 2nd system
+//This modified code also outputs the current position to :X2,:Y2 & :Z2 
+//which requires a memory chip
