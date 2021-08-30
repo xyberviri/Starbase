@@ -11,6 +11,10 @@ This script uses two ISAN systems to figure out the ships heading and the angle 
 4. Have one Memory chip with the fields XX, YY, ZZ, X2, Y2, Z2. 
 5. Have a text-panel with it's field renamed to "Heading"
 
+# Optional
+1. If using the included ISAN_2.yolol script add a 2nd hybrid panel with the name of "i"
+2. Add a 2nd ship navigation reciver and name the strength field to "e" and the target message field to "et".
+
 # Usage
 1. Point the ship in the direction you want to go
 2. Bearing of 0/360 heads towards EOS (negative on the Z), 180 is out to the belt.(positive Z)
