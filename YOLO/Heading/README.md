@@ -1,4 +1,4 @@
-![Heading](https://github.com/xyberviri/Starbase/blob/main/YOLO/Heading/Heading.jpg)
+![Heading](https://github.com/xyberviri/Starbase/blob/main/YOLO/Heading/Heading.png)
 
 # Ship Heading & Angle
 This script uses two ISAN systems to figure out the ships heading and the angle the ship is pointed.
